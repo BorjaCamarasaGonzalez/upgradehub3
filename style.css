@@ -1,0 +1,368 @@
+/* AQUÍ EMPIEZA EL HEADER */
+
+.b-header{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image:url(img/20905-coche_deportivo-el_bmw_m5-deportivo-rueda-coche_de_lujo_personal-3840x2160.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.textoprincipal{
+        width: 60%;
+        height: 40%;
+        position: absolute;
+        top: 34%;
+        left: 13%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: flex-end;
+    }
+.textoprincipa-h1{
+    height: 0px;
+    width: 100%;
+}
+.texto-h2-header{
+    font-size: 33px;
+    width: 100%;
+    height: 16px;
+}
+.primerboton{
+    background-color: #1C69D4;
+    width: 31%;
+    height: 36px;
+    font-family: monospace;
+    font-weight: 600;
+    color: white;
+}
+.b-header__nav{
+    display: flex;
+    width: 50%;
+    margin: 20px;
+    height: 85px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.b-header__nav__a{
+    margin: 5px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+.b-header__div{
+    display: flex;
+    width: 60%;
+    margin: 20px;
+    margin-top: 16px;
+    height: 85px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+   
+}
+.fa-solid .fa-magnifying-glass{
+    display: flex;
+    color: white;
+    font-size: 25px;
+
+}
+.fa-solid .fa-user{
+    display: flex;
+    color: white;
+    font-size: 25px;
+}
+.fa-solid .fa-location-dot{
+    display: flex;
+    color: white;
+    font-size: 25px;
+}
+.logo-bmw-header{
+    display: flex;
+    width: 7%;
+}
+/* AQUÍ TERMINA EL HEADER */
+
+/* AQUÍ EMPIEZA EL MAIN */
+
+.section{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.primer-h3-main{
+    display: flex;
+    width: 20%;
+    padding: 10px;
+    margin-left: 8%;
+    color: #BABABA;
+    font-size: 14px;
+    font-weight: 600;
+}
+.section1-div1{
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    margin-left: 8%;
+}
+.section1-div1-a{
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #BABABA;
+}
+
+.padre-general-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    width: 63%;
+    margin-left: 9%;
+    
+   
+}
+.div-galeria-item{
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fotos-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.div-galeria-item-h4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.div-galeria-item-h4-p{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: -21px;
+    color: #BABABA;
+    font-weight: 600;
+    font-size: 14px;
+}
+.div-galeria-item-h4-p2-configurar{
+    width: 100%;
+    margin-top: -2px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.div-galeria-item-h4-p2-explorar{
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 53px;
+    font-weight: 600;
+    font-size: 15px;
+}
+/* ESTA ES LA SECCIÓN 2 DE GALERIAS DE FOTOS */
+
+.section2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.padre-general-galeria2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 63%;
+    margin-left: 9%;
+}
+.div-galeria-item2{
+    width: 222px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid darkgray;
+    margin: 3px;
+    margin-bottom: 10%;
+}
+.fotos-galeria2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 28px 
+}
+.main2-div-galeria-item-h4{
+    color: black;
+    margin-left: 8px;
+    font-size: 28px;
+    margin-top: -10px 
+}
+.main2-div-galeria-item-h4-p{
+   color: black;
+   margin-left: 8px;
+   margin-top: -40px;
+   font-size: 13px;
+}
+.main2-div-galeria-item-h4-p2-explorar{
+    margin-top: 12px;
+    margin-left: 8px;
+    font-weight: bold;
+    margin-top: -11px;
+}
+/* ESTA ES LA SECCIÓN 2 DE GALERIAS DE FOTOS */
+
+
+.section3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.padre-general-galeria3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 63%;
+    margin-left: 9%;
+}
+.div-galeria-item3{
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid darkgray;
+    margin: 3px;
+    margin-bottom: 10%;
+}
+.fotos-galeria3{
+    display: flex;
+    width: 90%;
+    margin: 19px;
+}
+.main3-div-galeria-item-h4{
+    color: black;
+    font-size: 28px;
+    margin-top: -10px;
+    margin-left: 17px;
+}
+.main3-div-galeria-item-h4-p2-explorar{
+    color: black;
+    font-size: 13px;
+    margin-top: -32px;
+    margin-left: 21px 
+}
+/* AQUÍ EMPIEZAN LAS BOXES */
+.section-boxes{
+    width: 102%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.div-general-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 63%;
+    margin-left: 9%;
+    
+}
+.div-boxes{
+    width: 23%;
+    display: flex;
+    height: 103px;
+    background-color: #F2F2F2;
+    margin: 7px;
+}
+i{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 103px;
+    margin-top: 40px;
+    color: #575757;
+}
+.div-boxes2{
+    width: 23%;
+    display: flex;
+    height: 103px;
+    background-color: #F2F2F2;
+    margin: 7px;
+}
+.div-boxes3{
+    width: 23%;
+    display: flex;
+    height: 103px;
+    background-color: #F2F2F2;
+    margin: 7px;
+}
+.div-boxes4{
+    width: 23%;
+    display: flex;
+    height: 103px;
+    background-color: #F2F2F2;
+    margin: 7px;
+}
+.span-boxes{
+    display: flex;
+    font-size: 10px;
+    color: #575757;
+    margin: -30px;
+    margin-top: 66px;
+}
+/* ESTO ES EL FOOTER */
+
+.div-principal-footer{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #E6E6E6;
+    flex-direction: row;
+    align-items: center;
+}
+.div-hijo-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: 20%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.div-hijo-footer2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.div-hijo-footer3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.div-hijo-footer4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.h5-footer{
+    color: #151515;
+}
+.span-footer{
+    color: #929292;
+}
+.span-footer2{
+    color: #929292;
+}
+.span-footer3{
+    color: #929292;
+}
+.span-footer4{
+   color: #929292;
+}
